@@ -1,0 +1,128 @@
+body {
+    width: 960px;
+    height: 1100px;
+    margin: auto;
+ }
+
+#content {
+    width: 93%;
+    height: 100%;
+    margin: auto;
+    border: 35px double #9AF5DA;
+    border-radius: 80px 80px;
+}
+
+.address {
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px dotted #E8E6E6;
+   border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    margin: 25px 0 25px 0;
+    padding: 0;
+ }
+
+/* contact email should be underlined - Niba */
+
+#email { 
+    text-decoration: underline;
+    color: #073FF5;
+    text-transform: lowercase;
+}
+
+#visit {
+    text-decoration: underline;
+    color: #073FF5;
+    }
+
+
+.address a {
+    text-decoration: none;
+    color: #050505;
+}
+
+.menu {
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+/* menu-section should be center aligned  - Niba */
+
+.menu-section {
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    text-align: center;
+}
+    
+/* menu-item-price should float right - Niba */ 
+
+.menu-item-price {
+    float: right;
+    margin-right: 100px;
+    font-size: 22px;
+ 
+}
+
+
+.description {
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 120px;
+}
+
+/* item-name font should be cursive - Niba */
+
+.item-name {
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.drinks {
+    height: 80%;
+}
+
+
+/* menu footer as navigation bar --- Niba 
+
+.menu-footer ul { 
+        list-style: none;
+        text-align: center;
+        padding: 0px;
+        margin: 0;
+ 
+    }
+
+ .menu-footer li {
+      font-family: 'EB Garamond', serif;
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 30px;
+      height: 50px;
+      width: 20%;
+      margin: 60px 0 0 80px;
+     display: inline-block;
+     border-top: 5px dotted #E8E6E6;
+       border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    
+    }
+    
+    .menu-footer a {
+      text-decoration: none;
+      color: #E600AC ;
+    }
+    
+    .menu-footer a:hover {
+      background-color: #9AF5DA; 
+    }
+
+--- menu footer as navigation bar not needed - Niba */
